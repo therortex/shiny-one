@@ -29,9 +29,7 @@ $( ".btn-shiny4" ).click(function() {
 
 $( ".btn-shiny5" ).click(function() {
   $("div.shiny5, span.shiny5").slideUp();
-  $("h2").animate({
-      display: inline-block
-    }, slow, "easein" ).delay( 800 );
-  $(".shiny6").slideDown();
+  $("h2").css('display', 'inline-block').delay( 800 );
+  $(".shiny6").fadeIn();
   return false
 });
