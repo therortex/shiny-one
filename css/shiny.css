@@ -1,3 +1,10 @@
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 .shiny-top {
   background: #f6f6f6;
   padding: 20px 0;
