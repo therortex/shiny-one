@@ -29,7 +29,7 @@ $( ".btn-shiny4" ).click(function() {
 
 $( ".btn-shiny5" ).click(function() {
   $("div.shiny5").slideUp("fast");
-  $("span.shiny5").slideUp("2000");
+  $("span.shiny5").slideUp("3500");
   $("h2").css({'display': 'inline-block', "margin-right": "5px"});
   $(".shiny6").fadeIn("fast");
   return false
