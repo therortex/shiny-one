@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Shiny parts</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/shiny.css" rel="stylesheet">
+    <link href="js/shiny.js" rel="script">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,9 +21,11 @@
   </head>
   <body>
     <div class="container">
-      <h1>Hello, world inhabitor!</h1>
-      <p>So... You're here. At this part of the internet. It's my part. My private part. Not many get to see my private part.</p>
-      <p><a onClick=`$('private1').slideDown();`>Click here</a> to view more private parts.</p>
+      <div class="hide1">
+        <h2>Hello, world inhabitor!</h2>
+        <p class="lead">So... You're here. At this part of the internet. It's my part. My private part. Not many get to see my private part.</p>
+        <p><a href="#" class="btn btn-default" onClick=`$('.hide1').fadeOut();$('.show1').slideDown();`>View more private parts</a></p>
+      </div>
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
