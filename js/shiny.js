@@ -5,7 +5,7 @@ $( document ).ready(function() {
 
 $( ".btn-shiny1" ).click(function() {
   $(".shiny1").slideUp();
-  $(".shiny2").slideDown();
+  $(".shiny2, .shiny-top").slideDown();
   return false
 });
 
