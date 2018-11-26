@@ -5,30 +5,30 @@ $( document ).ready(function() {
 
 $( ".btn-shiny1" ).click(function() {
   $(".shiny1").fadeOut();
-  $(".shiny2").slideDown();
+  $(".shiny2").fadeIn();
   return false
 });
 
 $( ".btn-shiny2" ).click(function() {
-  $(".shiny2").fadeOut();
-  $(".shiny3").slideDown();
+  $("div.shiny2").fadeOut();
+  $(".shiny3").fadeIn();
   return false
 });
 
 $( ".btn-shiny3" ).click(function() {
-  $(".shiny3").fadeOut();
-  $(".shiny4").slideDown();
+  $("div.shiny3").fadeOut();
+  $(".shiny4").fadeIn();
   return false
 });
 
 $( ".btn-shiny4" ).click(function() {
-  $(".shiny4").fadeOut();
-  $(".shiny5").slideDown();
+  $("div.shiny4").fadeOut();
+  $(".shiny5").fadeIn();
   return false
 });
 
 $( ".btn-shiny5" ).click(function() {
-  $(".shiny5").fadeOut();
-  $(".shiny6").slideDown();
+  $("div.shiny5").fadeOut();
+  $(".shiny6").fadeIn();
   return false
 });
