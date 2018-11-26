@@ -1,35 +1,35 @@
 
 $( document ).ready(function() {
-    $(".shiny1").fadeIn();
+    $(".shiny1").fadeIn("fast");
 });
 
 $( ".btn-shiny1" ).click(function() {
-  $(".shiny1").slideUp();
-  $(".shiny2, .shiny-top").slideDown();
+  $(".shiny1").slideUp("fast");
+  $(".shiny2, .shiny-top").slideDown("fast");
   return false
 });
 
 $( ".btn-shiny2" ).click(function() {
-  $("div.shiny2, span.shiny2").slideUp();
-  $(".shiny3").slideDown();
+  $("div.shiny2, span.shiny2").slideUp("fast");
+  $(".shiny3").slideDown("fast");
   return false
 });
 
 $( ".btn-shiny3" ).click(function() {
-  $("div.shiny3, span.shiny3").slideUp();
-  $(".shiny4").slideDown();
+  $("div.shiny3, span.shiny3").slideUp("fast");
+  $(".shiny4").slideDown("fast");
   return false
 });
 
 $( ".btn-shiny4" ).click(function() {
-  $("div.shiny4, span.shiny4").slideUp();
-  $(".shiny5").slideDown();
+  $("div.shiny4, span.shiny4").slideUp("fast");
+  $(".shiny5").slideDown("fast");
   return false
 });
 
 $( ".btn-shiny5" ).click(function() {
-  $("div.shiny5, span.shiny5").slideUp();
-  $("h1, h2").css('display', 'inline-block').delay( 800 );
-  $(".shiny6").fadeIn();
+  $("div.shiny5, span.shiny5").slideUp("fast");
+  $("h1, h2").css('display', 'inline-block');
+  $(".shiny6").fadeIn("fast");
   return false
 });
